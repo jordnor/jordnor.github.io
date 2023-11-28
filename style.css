@@ -1,5 +1,5 @@
 body {
-    background-color: #26F0C2;
+    background-color: #FFFFFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -23,6 +23,16 @@ img {
     opacity: 1;
 }
 
+.testButton {
+    background-color: #2BF082;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.testButton:hover {
+    background-color: #28B040;
+}
+
 /* 
 Main - #3AF04C
 Secondary - #2BF082
@@ -30,5 +40,6 @@ Secondary - #2BF082
 4th -
 5th -
 6yh -
+BG - #FFFFFF & #F7F7F7
 + black & white
 */

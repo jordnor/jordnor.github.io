@@ -11,15 +11,16 @@ footer {
     background-color: #2BF082;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: xx-small;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    font-size: small;
 }
 
 img { 
     width: 100%;
     height: auto;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 /* 

@@ -1,3 +1,33 @@
 body {
+    background-color: #26F0C2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.container {
+    position: relative;
+}
+
+footer {
+    background-color: #2BF082;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: xx-small;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+/* 
+Main - #3AF04C
+Secondary - #2BF082
+3rd - #26F0C2
+4th -
+5th -
+6yh -
++ black & white
+*/

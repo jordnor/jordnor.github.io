@@ -24,13 +24,15 @@ img {
 }
 
 .testButton {
-    background-color: #2BF082;
+    background-color: #1f7f4f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: x-small;
 }
 
 .testButton:hover {
-    background-color: #28B040;
+    background-color: #1f6f2f;
+    font-size: x-small;
 }
 
 /* 

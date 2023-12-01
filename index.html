@@ -8,10 +8,24 @@
     <title>JordNor</title>
 </head>
 <body>
-    <h1>JordNor</h1>
-    <p>Welcome to JordNor!</p>
-    <footer>
-	<button class="testButton" onclick="testButton()">TEST BUTTON: CLICK ME!</button>
-    </footer>
+    <div class="logo">
+        <div class="logo-item">
+            <h1>WELCOME<br>TO JORDNOR</h1>
+            <svg width="225" height="225">
+                <defs>
+                    <clipPath id="circleClip">
+                        <circle cx="112.5" cy="112.5" r="110.5" />
+                    </clipPath>
+                </defs>
+                <circle cx="112.5" cy="112.5" r="110.5" stroke="black" stroke-width="2" fill="white" />
+                <image href="images\Mustafa.jpg" x="0" y="0" width="225" height="225" clip-path="url(#circleClip)" />
+            </svg>                               
+        </div>
+        <div class="logo-item">
+            <button class="SignUp" onclick="signUp()">SIGN UP</button>
+            <button class="LogIn" onclick="logIn()">LOG IN</button>
+        </div>
+    </div>
+	<button class="testButton" onclick="testButton()">testRoom</button>
 </body>
 </html>

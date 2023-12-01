@@ -23,23 +23,16 @@ body {
 }
 
 
-.SignUp {
+.SignUp,
+.LogIn,
+.testButton {
     font-family: 'Days One', sans-serif;
     font-weight: 900;
     width: 200px;
     height: 75px;
     border-radius: 50px;
     background-color: #02a0a0;
-}
-
-/* Targeting the button with class .SignUp */
-.LogIn {
-    font-family: 'Days One', sans-serif;
-    font-weight: 900;
-    width: 200px;
-    height: 75px;
-    border-radius: 50px;
-    background-color: #02a0a0;
+    /* Other styles */
 }
 
 
@@ -56,14 +49,6 @@ footer {
     font-size: small;
 }
 img { width: 100%; height: auto; opacity: 1; } 
-
-.testButton { 
-    background-color: #02a0a0;
-    color: #000;
-    font-family: 'Days One', sans-serif;
-    font-weight: 900;
-    text-align: center; font-size: x-small; 
-}
 
 .testDiv1 {
     background-color: #191970;

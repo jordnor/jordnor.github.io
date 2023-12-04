@@ -55,6 +55,55 @@ img { width: 100%; height: auto; opacity: 1; }
     color: #D3D3D3;
 }
 
+/* Position the entire form container */
+.SignUp_Forms {
+    position: relative;
+    width: 600px; /* Adjust the width of the form container as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+.SignUp_Forms input {
+    height: 30px; /* Adjust the height as desired */
+    margin-bottom: 30px; /* Add some space between inputs */
+}
+
+/* Style for centering the input field */
+input {
+    width: 100%; /* Ensures input takes full width */
+}
+
+/* Style for the text */
+.text-container {
+    position: relative;
+    margin-bottom: 20px; /* Add space at the bottom of the text */
+}
+
+.text-container-checkbox {
+    position: relative; /* Maintain relative positioning */
+    display: flex; /* Use flexbox for easier positioning */
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 10px; /* Adjust space at the bottom of the text */
+}
+
+.text-container-checkbox input[type="checkbox"] {
+    position: relative; /* Position the checkbox absolutely */
+    top: 0; /* Align with the top of the container */
+    margin-top: 5px; /* Adjust vertical alignment if needed */
+    margin-right: 20px; /* Add spacing between checkbox and text */
+}
+
+.text-container-checkbox h4 {
+    margin-left: 0px; /* Add spacing to accommodate the checkbox */
+    margin-right: 10px;
+}
+
+h4 {
+    position: absolute;
+    top: -20px; /* Adjust this value to leave space for inputs */
+    left: 0;
+    margin: 0;
+}
+
+
 
 /*
 #191970

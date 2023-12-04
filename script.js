@@ -10,10 +10,12 @@ function backToMain()
 
 function signUp()
 {
-    console.log("GG")
+    window.location.href = "./SignUp.html";
 }
 
 function logIn()
 {
-    console.log("EZ")
+    pass;
+    //window.location.href = "./LogIn.html";
+
 }

@@ -12,6 +12,10 @@ function signUp()
 {
     window.location.href = "./SignUp.html";
 }
+function signUpTwo()
+{
+    pass;
+}
 
 function logIn()
 {

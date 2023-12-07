@@ -22,10 +22,7 @@ body {
     padding: 25px 0;
 }
 
-
-.SignUp,
-.LogIn,
-.testButton {
+.Button {
     font-family: 'Days One', sans-serif;
     font-weight: 900;
     width: 200px;
@@ -34,7 +31,6 @@ body {
     background-color: #02a0a0;
     /* Other styles */
 }
-
 
 footer {
     background-color: #808080;
